@@ -65,7 +65,12 @@ int main() {
         switch(pilih) {
             case 1: {
                 system("cls");
-                cout << "Definisi 1: Permutasi adalah jumlah urutan berbeda dari pengaturan objek-objek\n";
+                cout << "PERMUTASI\n\n";
+                cout << "Berapa jumlah urutan berbeda yang mungkin dibuat dari penempatan bola\n";
+                cout << "ke dalam kotak-kotak tersebut?\n";
+                cout << ""
+                system("pause");
+                cout << "Permutasi adalah jumlah urutan berbeda dari pengaturan objek-objek\n";
                 cout << "\nPermutasi merupakan bentuk khusus aplikasi kaidah perkalian.\n";
                 cout << "\nMisalkan jumlah objek adalah n, maka\n";
                 cout << "- urutan pertama dipilih dari n objek,\n";
@@ -75,6 +80,16 @@ int main() {
                 cout << "- urutan terakhir dipilih dari 1 objek yang tersisa.\n";
                 cout << "\nMenurut kaidah perkalian, permutasi dari n objek adalah\n";
                 cout << "\tn(n - 1) (n - 2) ... (2)(1) = n!\n\n";
+                system("pause");
+                system("cls");
+                cout << "Untuk contoh dapat kita lakukan "
+                cout << "Sebuah mobil mempunyai 4 tempat duduk. Berapa banyak cara 3\n";
+                cout << "orang didudukkan jika diandaikan satu orang harus duduk di kursi\n";
+                cout << "sopir?\n\n";
+                cout << "Jawaban : \n\n";
+                cout << "Kursi supir dapat diisi dengan salah satu dari 3 orang (atau 3 cara). Sekarang\n";
+                cout << "tersisa tiga buah kursi lagi. Tiga kursi ini dapat diisi oleh dua orang lainnya. Maka\n";
+                cout << "jumlah cara mendudukkan tiga orang adalah 3 x P(3, 2) = 3 x (3!/(1!) = 18.\n\n";
                 system("pause");
                 break;
             }
