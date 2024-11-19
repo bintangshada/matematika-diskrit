@@ -66,12 +66,8 @@ int main() {
             case 1: {
                 system("cls");
                 cout << "PERMUTASI\n\n";
-                cout << "Berapa jumlah urutan berbeda yang mungkin dibuat dari penempatan bola\n";
-                cout << "ke dalam kotak-kotak tersebut?\n";
-                cout << ""
-                system("pause");
                 cout << "Permutasi adalah jumlah urutan berbeda dari pengaturan objek-objek\n";
-                cout << "\nPermutasi merupakan bentuk khusus aplikasi kaidah perkalian.\n";
+                cout << "Permutasi merupakan bentuk khusus aplikasi kaidah perkalian.\n";
                 cout << "\nMisalkan jumlah objek adalah n, maka\n";
                 cout << "- urutan pertama dipilih dari n objek,\n";
                 cout << "- urutan kedua dipilih dari n- 1 objek,\n";
@@ -82,7 +78,7 @@ int main() {
                 cout << "\tn(n - 1) (n - 2) ... (2)(1) = n!\n\n";
                 system("pause");
                 system("cls");
-                cout << "Untuk contoh dapat kita lakukan "
+                cout << "Untuk contoh dapat kita lakukan \n";
                 cout << "Sebuah mobil mempunyai 4 tempat duduk. Berapa banyak cara 3\n";
                 cout << "orang didudukkan jika diandaikan satu orang harus duduk di kursi\n";
                 cout << "sopir?\n\n";
@@ -118,7 +114,7 @@ int main() {
                             cout << "n = 1 + 4 + 4 + 2 = 11 buah = jumlah elemen himpunan S\n";
                             system("pause");
                             system("cls");
-                            cout << "Ada dua car yang dapat digu1nakan untuk menyelesaikan\n persoalan ini, keduanya memberikan hasil yang sama\n";
+                            cout << "Ada dua cara yang dapat digu1nakan untuk menyelesaikan\n persoalan ini, keduanya memberikan hasil yang sama\n";
                             cout << "\nCara 1: Jumlah string =\n\n";
                             cout << "P(11; 1,4,4,2) =\n";
                             cout << "\t11!\n";
@@ -137,10 +133,11 @@ int main() {
                         }
                         case 3 : {
                             break;
-                        }
+                        }     
                     }
                 }
                 while(pilih != 4);
+                break;
             }
             case 3: {
                 int pilih;
