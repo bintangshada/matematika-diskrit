@@ -127,13 +127,38 @@ int main() {
                             cout << "11! / (1! * 10!) * 10! / (4! * 6!) * 6! / (4! * 2!) * 2! / (2! * 0!) =\n";
                             cout << "11! / (1!) (4!) (4!) (2!) =34650\n";
                             system("pause");
+                            break;
                         }
                         case 2 : {
+                            system("cls");
+                            cout << "Berapakah jumlah kemungkinan membentuk bilangan 3-angka\n dari 5 angka berikut: 1, 2, 3, 4 , 5, jika:";
+                            cout << "\n\na. Angka tidak boleh diulang\n";
+                            cout << "b. Angka boleh diulang\n";
+                            cout << "Penyelesaian\n";
+                            cout << "Dengan rumus permutasi P(5, 3) = 5!/(5 - 3)! = 60\n";
+                            system("pause");
                             break;
                         }
                         case 3 : {
+                            system("cls");
+                            cout << "Lima putra dan tiga putri duduk berderet pada 8 kursi kosong sesuai\ndengan 8 lembar karcis bioskop yang mereka miliki.";
+                            cout << "Berapa banyak carauntuk duduk yang diperoleh dengan urutan berbeda jika :\n\n";
+                            cout << "a. Putra dan putri dapat duduk di sembarang kursi?\n";
+                            cout << "b. Putra dan putri masing-masing mengelompok sehingga hanya sepasang\nputra dan putri yang dapat duduk berdampingan?\n";
+                            system("pause");
+                            system("cls");
+                            cout << "Penyelesaian\n";
+                            cout << "Terdapat 8 orang yang menempati 8 kursi dimana perbedaan urutan duduk\nmemberikan hasil yang berbeda.\n";
+                            cout << "Ini adalah masalah permutasi 8 unsur dari 8unsur atau P(8, 8) diberikan oleh :\n\n";
+                            cout << "P(8, 8) = 8! = 8 x 7 x 6 x 5 x 3 x 2 x 1 =40.320\n";
+                            cout << "\n5 orang putra duduk pada 5 kursi tertentu dan pertukaran duduk hanya boleh\npada ke 5 kursi tersebut,\n";
+                            cout << "sehingga banyaknya cara duduk putra adalah P(5,5).\n\n";
+                            cout << "Demikian juga 3 putri duduk pada tiga kursi tertentu dan pertukaran duduk\ndiatara mereka hanya boleh pada ke 3 kursi ini\n";
+                            cout << "3 kursi ini, sehingga banyaknya carauntuk duduk putri adalah P(3, 3).\n\n";
+                            cout << "Dengan demikian, banyak cara duduk 5 putra dan 3 putri yang masing-masing \nmengelompok adalah P(5, 5) x P(3, 3)= 5! X 3! = 720\n";
+                            system("pause");
                             break;
-                        }     
+                        }
                     }
                 }
                 while(pilih != 4);
